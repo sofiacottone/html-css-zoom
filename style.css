@@ -60,10 +60,18 @@ header {
     cursor: pointer;
 }
 
-header btn {
+header .btn {
     background-color: #4a4a4a;
     color: #fff;
 
+}
+
+/*----------------
+    hover  
+ -----------------*/
+.view-btns .btn:hover {
+    background-color: #fff;
+    color: #4a4a4a;
 }
 
 /* #endregion  */
@@ -121,12 +129,13 @@ footer .icon {
     font-size: 20px;
 }
 
-footer * {
-    /* border: 1px solid red; */
+.box {
+    padding: 0 8px;
+    border-radius: 5px;
 }
 
 .left-box {
-    gap: 8px;
+    gap: 2px;
     margin: 0 20px;
     width: 25%;
 }
@@ -156,6 +165,18 @@ footer * {
 
 .fa-share-from-square {
     color: #4bc800;
+}
+
+.box:hover {
+    background-color: #4a4a4a90;
+    padding: 0 8px;
+    /* border: 1px solid red; */
+}
+
+.f-btn:hover {
+    /* box-shadow: 1px 4px 2px #ef121f; */
+    background-color: #ef121f;
+    color: #fff;
 }
 
 /* #endregion  */
