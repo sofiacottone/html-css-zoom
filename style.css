@@ -32,6 +32,7 @@ body {
     scroll-behavior: smooth;
     background-color: #000;
     color: #fff;
+    font-family: "Roboto", sans-serif;
 }
 
 .flexbox {
@@ -53,18 +54,23 @@ header {
 }
 
 .btn {
-    background-color: #4a4a4a;
-    color: #fff;
     border: none;
     padding: 6px 8px;
     border-radius: 8px;
     cursor: pointer;
 }
 
+header btn {
+    background-color: #4a4a4a;
+    color: #fff;
+
+}
+
 /* #endregion  */
 /* #region MAIN */
 main {
     height: calc(100vh - 120px);
+    overflow: auto;
 }
 
 /*----------------
@@ -80,7 +86,6 @@ main {
     width: 210px;
     position: relative;
     margin: auto;
-    display: inline-block;
 }
 
 .participant-box img {
@@ -103,6 +108,54 @@ main {
 /* #region FOOTER */
 footer {
     height: 80px;
+    background-color: #222;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .icon {
+    display: block;
+    padding: 6px 4px;
+    font-size: 20px;
+}
+
+footer * {
+    /* border: 1px solid red; */
+}
+
+.left-box {
+    gap: 8px;
+    margin: 0 20px;
+    width: 25%;
+}
+
+.center-box {
+    gap: 12px;
+}
+
+.right-box {
+    text-align: right;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.f-btn {
+    width: fit-content;
+    background-color: #4a4a4a;
+    color: #ef121f;
+    font-weight: 700;
+}
+
+.arrow-up {
+    align-self: center;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.fa-share-from-square {
+    color: #4bc800;
 }
 
 /* #endregion  */
