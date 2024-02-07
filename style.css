@@ -40,6 +40,13 @@ body {
 
 /* #endregion  */
 /* #region HEADER */
+header {
+    height: 40px;
+}
+
+/*----------------
+    buttons  
+ -----------------*/
 .view-btns {
     text-align: right;
     padding: 8px;
@@ -52,6 +59,50 @@ body {
     padding: 6px 8px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+/* #endregion  */
+/* #region MAIN */
+main {
+    height: calc(100vh - 120px);
+}
+
+/*----------------
+    participants  
+ -----------------*/
+.participants {
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 40px 60px;
+}
+
+.participant-box {
+    width: 210px;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+}
+
+.participant-box img {
+    border-radius: 10px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.user-name {
+    background-color: #4a4a4a90;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    padding: 4px;
+    border-radius: 0 5px 0 10px;
+    font-size: 14px;
+}
+
+/* #endregion  */
+/* #region FOOTER */
+footer {
+    height: 80px;
 }
 
 /* #endregion  */
