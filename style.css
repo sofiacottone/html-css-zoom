@@ -1,0 +1,39 @@
+/* #region RESET */
+:root {
+    --orange: #ff6900;
+    --red: #ff0000;
+    --green: #008000;
+    --black: #1a1a1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* #endregion  */
+/* #region GENERAL */
+body {
+    scroll-behavior: smooth;
+}
+
+.flexbox {
+    display: flex;
+}
+
+/* #endregion  */
